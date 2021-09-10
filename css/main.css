@@ -1,0 +1,342 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.hero-background {
+  width: 100%;
+  height: 1107px;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: absolute;
+  color: #ffffff;
+}
+
+.hero-pre-1 {
+  height: 650px;
+  background-image: url("../img/BACKGROUND1.png");
+  z-index: 1;
+}
+
+.hero-pre-2 {
+  background-image: url("../img/BACKGROUND2.png");
+  z-index: 2;
+}
+
+.hero-above {
+  background-image: url("../img/BACKGROUND3.png");
+  position: relative;
+  z-index: 3;
+  box-shadow: 0px 50px 50px red;
+}
+
+.hero-overlay {
+  background-color: #5a3d8a;
+  height: calc(100% - 100px);
+  width: 100%;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 4;
+}
+
+.hero-content {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 5;
+}
+
+.btn-mint {
+  background-color: #ea72c2;
+  border-color: #ea72c2;
+  font-weight: bold;
+}
+
+.btn-wallet {
+  background-color: #3ebec3;
+  border-color: #3ebec3;
+  font-weight: bold;
+}
+
+.hero-below-cropped {
+  background-image: url("../img/forest-below.png");
+  height: 502px;
+  width: 100%;
+  color: #ffffff;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 5;
+}
+
+.wallet-mdl {
+  color: #000000;
+  font-size: 14px;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0,0,0,0));
+}
+
+.modal-content {
+  padding: 15px;
+}
+
+.black-blend {
+  position: absolute;
+  background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+  width: 100%;
+  height: 200px;
+  z-index: 6;
+}
+
+.purple-blend {
+  position: relative;
+  background-image: linear-gradient(rgba(90, 61, 138, 0.5), rgba(0,0,0,0));
+  top: -100px;
+  height: 300px;
+  z-index: 7;
+}
+
+.large-icons {
+  font-size: 300%;
+  color: #ffffff;
+}
+
+.large-icons a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.shroom-banner {
+  position: relative;
+  background-image: url("../img/shroom_banner-hd.png");
+  background-size: cover;
+  width: 100%;
+  color: #ffffff;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.shroom-promo-bg-1 {
+  background-image: url("../img/promo-bg-2.png");
+  background-size: cover;
+  color: #ffffff;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+
+.shroom-promo-bg-2 {
+  background-image: url("../img/promo-bg-4.png");
+  background-size: cover;
+  color: #ffffff;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.bg-purple{
+  background-color: #763064;
+}
+
+.bg-blue {
+  background-color: #3ebec3;
+}
+
+.bg-green {
+  background-color: #80ec99;
+  color: #145022;
+}
+
+.bg-faq {
+  background-color: #1B4075;
+  color: #F0CFC9;
+}
+
+.bone-text{
+  color: #fee2d5;
+}
+
+.slider-wrapper {
+  position: relative;
+  width: 100px;
+  float: left;
+  height: 40px;
+  font-size: 2em;
+}
+
+.slider-wrapper div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-container {
+  height: 20px;
+  float: left;
+  position: relative;
+  width: calc(100% - 100px);
+}
+
+.slider {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #ffffff;
+  outline: none;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 48px;
+  height: 48px;
+  border: 0;
+  background: url('../img/slider-icon.png');
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 48px;
+  height: 48px;
+  border: 0;
+  background: url('../img/slider-icon.png');
+  cursor: pointer;
+}
+
+.invest-wrapper {
+  min-height: 100px;
+}
+
+div.hero-ul {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+.single-before {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 3rem;
+}
+
+.single-before li {
+  text-align: left;
+  padding-left: 1rem;
+  text-indent: -0.7rem;
+}
+
+.single-before li::before {
+  content: "🍄  ";
+}
+
+.single-counter-rule {
+list-style-type: single-emoji;
+}
+
+.team-image {
+width: 50%;
+text-align: center;
+border-radius: 50px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+height: 100%;
+}
+
+.img-center {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.vc-imgs {
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+width:75%;
+}
+
+.question-button {
+  outline: none;
+  border: none;
+  background: none;
+  text-align: left;
+  background: rgb(18,40,80);
+  padding: 1em 0.75rem;
+  margin-bottom: 1em;
+  border-radius: .3rem;
+  color: white;
+}
+
+.answer-panel {
+  display: none;
+  overflow: hidden;
+  margin-bottom: 0.5em;
+}
+
+.accordion-button {
+background-color: #3ebec3;
+color: #21252a;
+}
+
+.accordion-button:focus {
+box-shadow: none !important;
+border-color: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+color: #21252a;
+font-weight: bold;
+}
+
+.accordion-item {
+margin-left: auto;
+margin-right: auto;
+background: transparent !important;
+border: none !important;
+}
+
+.acc-1 {
+background-image: url("../img/mystery-shroom.png");
+height: 350px;
+background-size: contain;
+background-repeat: no-repeat;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.footer-icons {
+  font-size: 150%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer-icons a{
+  text-decoration: none;
+  color: #ffffff;
+}
+}
+}
